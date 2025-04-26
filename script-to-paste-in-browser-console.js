@@ -101,7 +101,7 @@ function download(filename, text) {
 
 getAllTextFromSitemap("", 500, 1000000)
   .then(allText => {
-    download("hays_fr_website_text.txt", allText);
+    download("website_text.txt", allText);
     console.log("Extracted Text:\n", allText);
   })
   .catch(error => {
